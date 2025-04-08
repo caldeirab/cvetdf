@@ -49,9 +49,8 @@ const Index = () => {
             <div className="max-w-3xl mx-auto">
               {/* Imagem Destacada */}
               <div className="mb-8 rounded-lg overflow-hidden shadow-xl mx-auto w-64">
-             <img 
-            src="/vet-dog.jpeg" 
-            alt="Veterinário cuidando de um cão" 
+             <img src="/vet-dog.jpeg" 
+             alt="Veterinário cuidando de um cão" 
              className="w-full h-auto"
              />
             </div>
