@@ -22,7 +22,7 @@ const Index = () => {
     <div className="flex flex-col min-h-screen">
       {/* Cabeçalho */}
       <header className="z-50 bg-white shadow-sm">
-  <div className="container mx-auto px-4 py4- flex justify-between items-center">
+  <div className="container mx-auto px-4 py2- flex justify-between items-center">
     <div className="flex items-center">
       <div className="h-12 w-48 flex items-center">
         <img src="/logo.svg" alt="VET DF Logo" className="h-full" />
