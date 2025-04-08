@@ -49,12 +49,13 @@ const Index = () => {
             <div className="max-w-3xl mx-auto">
               {/* Imagem Destacada */}
               <div className="mb-8 rounded-lg overflow-hidden shadow-xl mx-auto w-64">
-              <img 
-                src="cvetdf/src/vet-dog.jpeg" 
-                 alt="Veterinário cuidando de um cão" 
-                 className="w-full h-auto"
-                        />
-               </div>
+             <img 
+            src="src/vet-dog.jpeg" 
+            alt="Veterinário cuidando de um cão" 
+             className="w-full h-auto"
+             />
+            </div>
+
               
               <h1 className="text-4xl md:text-5xl font-bold mb-6 text-center">Ortopedia e Radiologia Veterinária Especializada</h1>
               <p className="text-xl mb-8 text-center">Cuidados avançados para cães, gatos e animais silvestres com tecnologia de ponta e especialistas experientes.</p>
