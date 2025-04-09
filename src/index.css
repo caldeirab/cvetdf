@@ -163,4 +163,15 @@ width: 100%;
 text-align: center;
 }
 }
+@media (prefers-color-scheme: dark) {
+  html, body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  .section, main, header, footer {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+}
 
