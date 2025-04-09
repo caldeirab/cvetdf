@@ -111,3 +111,6 @@ main {
 .hover\:text-teal-600:hover {
   color: #0d9488;
 }
+body {
+  color-scheme: light;
+}
