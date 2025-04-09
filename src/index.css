@@ -3,6 +3,16 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    color-scheme: light; /* Força modo claro em navegadores que tentam aplicar dark automaticamente */
+  }
+
+  body {
+    --background: 0 0% 100% !important;
+    --foreground: 0 0% 3.9% !important;
+    @apply bg-background text-foreground;
+  }
+}
   :root {
     --background: 0 0% 100%;  
     --foreground: 0 0% 3.9%;
