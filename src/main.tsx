@@ -14,7 +14,7 @@ const queryClient = new QueryClient();
 createRoot(document.getElementById("root")!).render(
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
-      <ThemeProvider>
+      <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
         <BrowserRouter>
           <Routes>
             <Route path='/' element={<Index />} />
