@@ -163,7 +163,7 @@ width: 100%;
 text-align: center;
 }
 }
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html, body {
     background-color: #ffffff !important;
     color: #000000 !important;
@@ -173,5 +173,5 @@ text-align: center;
     background-color: #ffffff !important;
     color: #000000 !important;
   }
-}
+} */
 
