@@ -7,6 +7,7 @@ import { TooltipProvider } from "./components/ui/tooltip";
 import { ThemeProvider } from "./components/layout/theme-provider";
 import "./index.css";
 import Index from "./pages";
+document.documentElement.classList.remove('dark');
 
 const queryClient = new QueryClient();
 
