@@ -3,6 +3,9 @@ import path from "path";
 import { defineConfig } from "vite";
 
 // https://vite.dev/config/
+build: {
+  sourcemap: false,
+}
 export default defineConfig({
   plugins: [react()],
   resolve: {
