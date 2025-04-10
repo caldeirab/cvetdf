@@ -8,6 +8,7 @@ import { ThemeProvider } from "./components/layout/theme-provider";
 import "./index.css";
 import Index from "./pages";
 document.documentElement.classList.remove('dark');
+localStorage.setItem('theme', 'light');
 document.documentElement.classList.add('light');
 
 const queryClient = new QueryClient();
