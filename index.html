@@ -12,7 +12,16 @@
     <title>VET DF | Ortopedia e Radiologia Veterinária</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+       {/* Botão fixo para subir ao topo */}
+      <button 
+        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} 
+        className="fixed bottom-6 right-6 bg-teal-600 hover:bg-teal-700 text-white p-3 rounded-full shadow-lg z-50 transition-all duration-300"
+        aria-label="Subir ao topo"
+      >
+        ↑
+      </button>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
     <script>
        document.addEventListener('contextmenu', event => event.preventDefault());
