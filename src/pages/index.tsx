@@ -176,18 +176,20 @@ const Index = () => {
                 </div>
               </div>
 
-              <div className="flex items-start sm:items-center gap-4">
-  <Clock className="h-6 w-6 text-teal-600 mt-1 flex-shrink-0" />
+                    <div className="flex items-center gap-4">
+  <div className="flex items-center justify-center w-8 h-8">
+    <Clock className="h-6 w-6 text-teal-600" />
+  </div>
   <div>
     <h3 className="font-bold text-gray-800">Horário de Funcionamento</h3>
-    <p className="text-gray-600">
-      Segunda - Sexta: 8:00 - 18:00<br />
-      Sábado: 9:00 - 14:00<br />
-      Domingo: Fechado
-    </p>
+    <ul className="text-gray-600">
+      <li>Segunda - Sexta: 8:00 - 18:00</li>
+      <li>Sábado: 9:00 - 14:00</li>
+      <li>Domingo: Fechado</li>
+    </ul>
   </div>
 </div>
-
+              
               <div className="mt-8 flex justify-center">
                 <Button 
                   className="bg-green-500 hover:bg-green-600 text-white text-lg py-6 px-8 flex items-center gap-2"
