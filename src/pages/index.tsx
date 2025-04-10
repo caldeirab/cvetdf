@@ -176,17 +176,17 @@ const Index = () => {
                 </div>
               </div>
 
-              <div className="flex items-start">
-                <Clock className="h-6 w-6 text-teal-600 mr-4 mt-1" />
-                <div>
-                  <h3 className="font-bold text-gray-800">Horário de Funcionamento</h3>
-                  <p className="text-gray-600">
-                    Segunda - Sexta: 8:00 - 18:00<br />
-                    Sábado: 9:00 - 14:00<br />
-                    Domingo: Fechado
-                  </p>
-                </div>
-              </div>
+              <div className="flex items-start sm:items-center gap-4">
+  <Clock className="h-6 w-6 text-teal-600 mt-1 flex-shrink-0" />
+  <div>
+    <h3 className="font-bold text-gray-800">Horário de Funcionamento</h3>
+    <p className="text-gray-600">
+      Segunda - Sexta: 8:00 - 18:00<br />
+      Sábado: 9:00 - 14:00<br />
+      Domingo: Fechado
+    </p>
+  </div>
+</div>
 
               <div className="mt-8 flex justify-center">
                 <Button 
