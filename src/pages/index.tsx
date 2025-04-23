@@ -20,6 +20,10 @@ const Index = () => {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Cabeçalho */}
+      {/* Atendimento 24H no topo */}
+      <div className="bg-red-600 text-white text-center text-sm font-semibold py-2">
+         ATENDIMENTO 24H
+      </div>
       <header className="z-50 bg-white shadow-sm">
         <div className="container mx-auto px-4 py-2 flex justify-between items-center">
           <div className="flex items-center">
@@ -46,7 +50,7 @@ const Index = () => {
               <div className="mb-8 rounded-lg overflow-hidden shadow-xl mx-auto w-64">
                 <img src="/vet-dog.jpeg" alt="Veterinário cuidando de um cão" className="w-full h-auto" />
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold mb-6 text-center">Ortopedia e Radiologia Veterinária Especializada</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6 text-center"><span className="text-red-600">Ortopedias e Radiologia</span> Veterinária Especializadas</h1>
               <p className="text-xl mb-8 text-center">Cuidados avançados para cães, gatos e animais silvestres com tecnologia de ponta e especialistas experientes.</p>
               <div className="flex justify-center">
                 <Button 
@@ -66,7 +70,7 @@ const Index = () => {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-4">Cuidamos de Todos os Animais</h2>
-              <p className="text-gray-600 max-w-2xl mx-auto">Nossos serviços especializados em ortopedia e radiologia estão disponíveis para diversos tipos de animais.</p>
+              <p className="text-gray-600 max-w-2xl mx-auto"> Nossos serviços especializados em ortopedia e radiologia estão disponíveis para diversos tipos de animais, <span className="text-red-600 font-semibold">24H</span>.</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <Card className="text-center hover:shadow-lg transition-shadow">
